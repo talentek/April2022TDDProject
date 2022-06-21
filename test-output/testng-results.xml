@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8561" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:41 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8561" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:41 EDT">
+      <class name="com.ups.test.UpsTrackingPageTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="beforeTest" is-config="true" duration-ms="6200" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testCase_1()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="testCase_1" duration-ms="34" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_1 -->
+        <test-method status="PASS" signature="testCase_2()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="testCase_2" duration-ms="2" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_2 -->
+        <test-method status="PASS" signature="validateUpsTrackingErrorMsg_1()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="validateUpsTrackingErrorMsg_1" duration-ms="1338" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpsTrackingErrorMsg_1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="afterTest" is-config="true" duration-ms="858" started-at="2022-06-18T17:30:40 EDT" finished-at="2022-06-18T17:30:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ups.test.UpsTrackingPageTest -->
+      <class name="com.ups.test.TestClass">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.ups.test.TestClass@32c0915e]" name="test" duration-ms="1" started-at="2022-06-18T17:30:40 EDT" finished-at="2022-06-18T17:30:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.ups.test.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
