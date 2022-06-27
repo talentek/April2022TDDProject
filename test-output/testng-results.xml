@@ -1,39 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8561" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:41 EDT">
+  <suite name="UPS Login Page Cross Browser Test Suite" duration-ms="59794" started-at="2022-06-25T18:05:33 EDT" finished-at="2022-06-25T18:06:33 EDT">
     <groups>
+      <group name="regressionTest">
+        <method signature="UpsLoginPageTest.upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@2fd66ad3]" name="upsLoginTestWrongUserId" class="com.ups.test.UpsLoginPageTest"/>
+        <method signature="UpsLoginPageTest.upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@71d15f18]" name="upsLoginTestWrongUserId" class="com.ups.test.UpsLoginPageTest"/>
+      </group> <!-- regressionTest -->
+      <group name="sanityTest">
+        <method signature="UpsLoginPageTest.upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@2fd66ad3]" name="upsLoginTestWrongUserId" class="com.ups.test.UpsLoginPageTest"/>
+        <method signature="UpsLoginPageTest.upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@71d15f18]" name="upsLoginTestWrongUserId" class="com.ups.test.UpsLoginPageTest"/>
+      </group> <!-- sanityTest -->
     </groups>
-    <test name="Test" duration-ms="8561" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:41 EDT">
-      <class name="com.ups.test.UpsTrackingPageTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="beforeTest" is-config="true" duration-ms="6200" started-at="2022-06-18T17:30:32 EDT" finished-at="2022-06-18T17:30:38 EDT">
+    <test name="Ups Login Test-Chrome Browser" duration-ms="28109" started-at="2022-06-25T18:05:33 EDT" finished-at="2022-06-25T18:06:01 EDT">
+      <class name="com.ups.test.UpsLoginPageTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.ups.test.UpsLoginPageTest@2fd66ad3]" name="beforeTest" is-config="true" duration-ms="21503" started-at="2022-06-25T18:05:33 EDT" finished-at="2022-06-25T18:05:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testCase_1()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="testCase_1" duration-ms="34" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:38 EDT">
+        <test-method status="PASS" signature="upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@2fd66ad3]" name="upsLoginTestWrongUserId" duration-ms="6415" started-at="2022-06-25T18:05:54 EDT" finished-at="2022-06-25T18:06:01 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase_1 -->
-        <test-method status="PASS" signature="testCase_2()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="testCase_2" duration-ms="2" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:38 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase_2 -->
-        <test-method status="PASS" signature="validateUpsTrackingErrorMsg_1()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="validateUpsTrackingErrorMsg_1" duration-ms="1338" started-at="2022-06-18T17:30:38 EDT" finished-at="2022-06-18T17:30:40 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUpsTrackingErrorMsg_1 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ups.test.UpsTrackingPageTest@3a45c42a]" name="afterTest" is-config="true" duration-ms="858" started-at="2022-06-18T17:30:40 EDT" finished-at="2022-06-18T17:30:41 EDT">
+        </test-method> <!-- upsLoginTestWrongUserId -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ups.test.UpsLoginPageTest@2fd66ad3]" name="afterTest" is-config="true" duration-ms="166" started-at="2022-06-25T18:06:01 EDT" finished-at="2022-06-25T18:06:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.ups.test.UpsTrackingPageTest -->
-      <class name="com.ups.test.TestClass">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.ups.test.TestClass@32c0915e]" name="test" duration-ms="1" started-at="2022-06-18T17:30:40 EDT" finished-at="2022-06-18T17:30:40 EDT">
+      </class> <!-- com.ups.test.UpsLoginPageTest -->
+    </test> <!-- Ups Login Test-Chrome Browser -->
+    <test name="Ups Login Test-Firefox Browser" duration-ms="59794" started-at="2022-06-25T18:05:33 EDT" finished-at="2022-06-25T18:06:33 EDT">
+      <class name="com.ups.test.UpsLoginPageTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.ups.test.UpsLoginPageTest@71d15f18]" name="beforeTest" is-config="true" duration-ms="54430" started-at="2022-06-25T18:05:33 EDT" finished-at="2022-06-25T18:06:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.ups.test.TestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="upsLoginTestWrongUserId()[pri:0, instance:com.ups.test.UpsLoginPageTest@71d15f18]" name="upsLoginTestWrongUserId" duration-ms="4570" started-at="2022-06-25T18:06:27 EDT" finished-at="2022-06-25T18:06:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upsLoginTestWrongUserId -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.ups.test.UpsLoginPageTest@71d15f18]" name="afterTest" is-config="true" duration-ms="789" started-at="2022-06-25T18:06:32 EDT" finished-at="2022-06-25T18:06:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.ups.test.UpsLoginPageTest -->
+    </test> <!-- Ups Login Test-Firefox Browser -->
+  </suite> <!-- UPS Login Page Cross Browser Test Suite -->
 </testng-results>

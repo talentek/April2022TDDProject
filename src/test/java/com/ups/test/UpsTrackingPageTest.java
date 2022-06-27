@@ -25,7 +25,7 @@ public class UpsTrackingPageTest extends Drivers {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
-	@Test
+	@Test(priority = 3,groups= {"regressionTest"})
 	public void validateUpsTrackingErrorMsg_1() {
 		actions.inputTrackingNumber("123456789");
 		actions.clickTrackButton();
@@ -33,17 +33,16 @@ public class UpsTrackingPageTest extends Drivers {
 		String actualErrorMessage = actions.getTrackingErrorMessage_1();
 		Assert.assertEquals(actualErrorMessage, expectedErrorMessage);
 	}
-	
-	@Test
+
+	@Test(priority = 2,groups= {"regressionTest"})
 	public void testCase_1() {
 		Assert.assertEquals(1, 1);
 	}
-	
-	@Test
+
+	@Test(priority =1,groups= {"sanityTest","regressionTest"})
 	public void testCase_2() {
 		Assert.assertEquals("Hello", "Hello");
 	}
-	
 
 	@AfterTest(alwaysRun = true)
 	public void afterTest() {

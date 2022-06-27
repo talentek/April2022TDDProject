@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UPS Login Page Cross Browser Test Suite"
+	thread-count="2" parallel="tests">
+
+	<test name="Ups Login Test-Chrome Browser">
+		<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="regressionTest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ups.test.UpsLoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Ups Login Test-Firefox Browser">
+		<parameter name="browser" value="firefox" />
+		<groups>
+			<run>
+				<include name="regressionTest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.ups.test.UpsLoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ups.test.UpsTrackingPageTest">
+      <class name="com.ups.test.TestClass">
         <methods>
-          <include name="testCase_2"/>
-          <include name="testCase_1"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
+          <include name="sumTest"/>
         </methods>
-      </class> <!-- com.ups.test.UpsTrackingPageTest -->
+      </class> <!-- com.ups.test.TestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

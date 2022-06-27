@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SanityTestSuite">
+	<test name="SanityTest">
+
+		<groups>
+			<run>
+				<include name="sanityTest" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.ups.test.UpsTrackingPageTest" />
+			<class name="com.ups.test.TestClass" />
+			<class name="com.ups.test.UpsLoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
